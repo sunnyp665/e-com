@@ -68,7 +68,7 @@ button:active {
 }
 
 .btn {
-  background-color: blueviolet;
+  background-color: brown;
   color: white;
   padding: 12px 24px;
   font-size: 20px;
@@ -98,7 +98,7 @@ button:active {
   margin-left: 16px;
   text-decoration: none;
   font-size: 20px;
-  color: #7342d6;
+  color: brown;
   font-weight: bold;
   padding: 8px;
 }
@@ -108,7 +108,7 @@ button:active {
 }
 
 .nav__link--primary {
-  border: 2px solid #7342d6;
+  border: 2px solid brown;
   border-radius: 4px;
 }
 
@@ -120,13 +120,13 @@ button:active {
   background-color: transparent;
   font-size: 40px;
   border: none;
-  color: #7342d6;
+  color: burlywood;
   display: none;
 }
 
 .menu__backdrop {
   position: absolute;
-  background-color: #242424;
+  background-color: brown;
   top: 0;
   left: 0;
   right: 0;
@@ -183,7 +183,7 @@ LANDING
 */
 
 #landing {
-  background-color: rgba(115, 66, 214, 0.1)
+  background-color: burlywood;
 }
 
 header {
@@ -296,6 +296,23 @@ HIGHLIGHTS
   border-radius: 4px;
   font-size: 32px;
   margin-bottom: 24px;
+  animation: dance-in 2s ease-in-out infinite;
+}
+
+.hightlight__img{
+  animation: icon-dance 1s ease-in-out infinite;
+}
+
+.highlight:nth-child(1) .highlight__img{
+  animation-delay: 200ms;
+}
+
+.highlight.highlight:nth-child(2) .highlight__img{
+  animation-delay: 400ms;
+}
+
+.highlight:nth-child(3) .highlight__img{
+  animation-delay: 600ms;
 }
 
 .highlight__subtitle {
@@ -481,4 +498,13 @@ footer {
     opacity: 1;
     transform: translateY(0) rotate(0) scale(1);
   }
+}
+
+@keyframes icon-dance{
+   0%, 100%{
+    transform: translateY(-8px) rotate(5deg)
+  }
+   50%{
+    transform: translateY(-8px) rotate(5deg)
+   }
 }
