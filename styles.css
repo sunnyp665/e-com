@@ -75,7 +75,7 @@ button:active {
 }
 
 .brown {
-  color: brown;
+  color:brown;
 }
 
 .logo {
@@ -90,13 +90,14 @@ button:active {
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
+  background-color: brown;
 }
 
 .nav__link {
   margin-left: 16px;
   text-decoration: none;
   font-size: 20px;
-  color: brown;
+  color: black;
   font-weight: bold;
   padding: 8px;
 }
@@ -106,7 +107,7 @@ button:active {
 }
 
 .nav__link--primary {
-  border: 2px solid brown;
+  border: 2px solid black;
   border-radius: 4px;
 }
 
@@ -118,7 +119,7 @@ button:active {
   background-color: transparent;
   font-size: 40px;
   border: none;
-  color: burlywood;
+  color: black;
   display: none;
 }
 
@@ -149,6 +150,8 @@ button:active {
   opacity: 1;
   transform: translate(0);
 }
+
+
 
 .menu__links {
   display: flex;
@@ -267,6 +270,7 @@ HIGHLIGHTS
 .highlight__wrapper {
   display: flex;
   flex-wrap: wrap;
+  background-color: ;
 }
 
 .highlight {
@@ -283,8 +287,8 @@ HIGHLIGHTS
 }
 
 .highlight__img {
-  border: 2px solid #7342d65d;
-  color: #7342d6;
+  border: 2px solid olivedrab;
+  color: olive;
   width: 100px;
   height: 100px;
   display: flex;
